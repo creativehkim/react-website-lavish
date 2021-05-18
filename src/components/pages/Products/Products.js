@@ -2,15 +2,16 @@ import React from 'react'
 import HeroSection from '../../HeroSection'
 import Pricing from '../../Pricing'
 
-import { homeObjTwo } from './Data'
+import {homeObjOne} from './Data'
 
-const Services = () => {
+const Products = () => {
   return (
     <>
-      <HeroSection {...homeObjTwo} />
+      <HeroSection {...homeObjOne} />
       <Pricing />
+      
     </>
   )
 }
 
-export default Services
+export default Products
