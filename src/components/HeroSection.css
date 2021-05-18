@@ -50,7 +50,9 @@
 }
 
 .dark {
-  color: #1c2237;
+  /* color: #1c2237; */
+  color: #f7f8fa;
+
 }
 
 .darkBg {
