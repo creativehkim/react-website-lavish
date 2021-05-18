@@ -1,7 +1,7 @@
 export const homeObjOne = {
   lightBg: false,
   lightText: true,
-  lightTextDescription: true,
+  lightTextDesc: true,
   topLine: 'Exclusive Access',
   headline: 'Unlimited Transactions with zero fees',
   description: 'Get access to our exclusive diamond card that allows you to send unliminted transactions without getting charged any fees',
@@ -12,20 +12,6 @@ export const homeObjOne = {
 }
 
 export const homeObjTwo = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: '100% SECURE',
-  headline: 'Stay protected 24/7 anywhere anytime',
-  description:
-    'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
-  buttonLabel: 'Learn More',
-  imgStart: '',
-  img: 'images/svg-5.svg',
-  alt: 'Vault'
-}
-
-export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -39,10 +25,25 @@ export const homeObjThree = {
   alt: 'Vault'
 }
 
-export const homeObjFour = {
+export const homeObjThree = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
+    topLine: '100% SECURE',
+  headline: 'Stay protected 24/7 anywhere anytime',
+  description:
+    'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
+  buttonLabel: 'Learn More',
+  imgStart: '',
+  img: 'images/svg-5.svg',
+  alt: 'Vault'
+}
+  
+
+export const homeObjFour = {
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'DATA ANALYTICS',
   headline: 'Every transaction is stored on our secure cloud database',
   description:
